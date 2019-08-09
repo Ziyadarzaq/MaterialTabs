@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PersegiP"
+    android:orientation="vertical">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rumus Luas Persegi Panjang = Panjang x Lebar"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Lebar"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Hasil"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/luas"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Luas"
+        android:textColor="@color/textColorPrimary"
+        android:background="@drawable/button_luas"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rumus Keliling Persegi Panjang = 2 x Panjang + Lebar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Panjang"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Lebar"
+        android:inputType="number"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/hasil1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Hasil"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/keliling"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="Keliling"
+        android:textColor="@color/textColorPrimary"
+        android:background="@drawable/button_keliling"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+</LinearLayout>

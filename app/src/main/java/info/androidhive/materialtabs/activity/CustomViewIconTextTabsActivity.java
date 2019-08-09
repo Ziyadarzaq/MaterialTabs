@@ -21,7 +21,7 @@ import info.androidhive.materialtabs.fragments.TwoFragment;
 
 public class CustomViewIconTextTabsActivity extends AppCompatActivity {
 
-    private Toolbar toolbar;
+    //private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
@@ -30,9 +30,9 @@ public class CustomViewIconTextTabsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_custom_view_icon_text_tabs);
 
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+      //  toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(viewPager);
